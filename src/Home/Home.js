@@ -8,7 +8,7 @@ function Home() {
       <div className="home__container">
         <img
           className="Home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Rajeshwari/March-21/Network_Hero_banners/HeroPC_1500x600_5._CB657961025_.jpg"
+          src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/Multititle/Feb/EN/1500x600_Hero-Tall_NP._CB657651956_.jpg"
           alt=""
         />
         <div className="home__row">
@@ -17,13 +17,13 @@ function Home() {
             title="Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future Paperback – 14 June 2015"
             price={7.49}
             image="https://images-na.ssl-images-amazon.com/images/I/51I-QgidWHL._SX322_BO1,204,203,200_.jpg"
-            rating={3}
+            rating={5}
           />
           <Product
             id="65446565"
-            title="Sony WH-1000XM4 Industry Leading Wireless Noise Cancelling Headphones, Bluetooth Headset with Mic for Phone Calls, 30 Hours Battery Life, Quick Charge, Touch Control & Alexa Voice Control – (Black)"
-            price={350}
-            image="https://images-na.ssl-images-amazon.com/images/I/71o8Q5XJS5L._SX522_.jpg"
+            title="Dell P Series 24-inch (60.96 cm) Screen Full HD (1080p) LED-Lit Monitor with IPS Panel - P2419H (Black)"
+            price={172}
+            image="https://images-na.ssl-images-amazon.com/images/I/91ddm%2BP-VCL._SX679_.jpg"
             rating={5}
           />
         </div>
