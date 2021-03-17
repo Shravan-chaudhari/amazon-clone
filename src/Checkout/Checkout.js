@@ -6,17 +6,18 @@ import CheckoutProduct from "./checkoutProduct";
 import { useStateValue } from "../StateProvider/StateProvider";
 
 function Checkout() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
   return (
     <div className="checkout">
       <div className="checkout__left">
         <img
           className="checkout__ad"
-          src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonDevices/GW/GW_Desktop_Dotbulb_1500X600._CB658001698_.jpg"
+          src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Luggage/March/BBS/GW/GW_PC_BUNK_1500x600._CB658312757_.jpg"
           alt=""
         />
 
         <div>
+          <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your Shopping Cart</h2>
 
           {basket.map((item) => (
