@@ -42,12 +42,12 @@ function App() {
           <Route path="/checkout">
             <Header />
             <Checkout />
-            {/* <Footer /> */}
+            <Footer />
           </Route>
           <Route path="/">
             <Header />
             <Home />
-            {/* <Footer /> */}
+            <Footer />
           </Route>
         </Switch>
       </div>

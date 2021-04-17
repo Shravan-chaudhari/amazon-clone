@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-around;
   color: white;
-  /* padding-top: 180px; */
+  padding-top: 180px;
 }
 .container__component {
   color: #ddd;
