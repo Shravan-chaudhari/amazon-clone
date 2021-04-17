@@ -1,0 +1,30 @@
+export const SliderData = [
+  {
+    image:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/Gateway/2021/desktop-1x._CB658860139_.jpg",
+  },
+  {
+    image:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Samsung/SamsungM/M12/GW_launch/Sale/19th_Mar/RV1/D21200796_IN_WLME_SamsungGalaxy_M12_New_Launch_DesktopTallHero_1500x600_2._CB656826636_.jpg",
+  },
+  {
+    image:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Sports/2021/hero/Sports_1500x600._CB656474946_.jpg",
+  },
+  {
+    image:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Gateway_JWELSSH/Feb/SSW/Super_saver_brands/1500PC._CB658944950_.jpg",
+  },
+  {
+    image:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/holi21/GW/rev1/Holi-GW-Hero-PC-1x._CB656865633_.jpg",
+  },
+  {
+    image:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/vivo/march/x60/Launch/GW/D21592002_WL_VIVO_X60Series_NewLaunch_Tall_hero_1500x600._CB656554900_.jpg",
+  },
+  {
+    image:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Audio/MI/Final/MI_Gw_1500x600._CB659658858_.jpg",
+  },
+];

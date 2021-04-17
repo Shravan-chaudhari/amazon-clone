@@ -7,6 +7,7 @@ import Login from "./login/login";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider/StateProvider";
+import Footer from "./Footer/footer";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -22,7 +23,7 @@ function App() {
           user: authUser,
         });
       } else {
-        //the user is lgged out
+        //the user is logged out
         dispatch({
           type: "SET_USER",
           user: null,
@@ -41,10 +42,12 @@ function App() {
           <Route path="/checkout">
             <Header />
             <Checkout />
+            {/* <Footer /> */}
           </Route>
           <Route path="/">
             <Header />
             <Home />
+            {/* <Footer /> */}
           </Route>
         </Switch>
       </div>
